@@ -1,10 +1,10 @@
 # Maintainer: Thomas Rijpstra <thomas at fourlights dot nl>
 pkgname=mkinitcpio-cmdline-pacman-hook
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Pacman hook to trigger mkinicpio when /etc/cmdline, /etc/cmdline.d/* or /etc/kernel/cmdline is modified by packages"
 arch=('any')
-url="https://github.com/trijpstra-fourlights/minisforum-v3-pcie-aspm-config"
+url="https://github.com/trijpstra-fourlights/mkinitcpio-cmdline-pacman-hook"
 license=('MIT')
 depends=('pacman' 'mkinitcpio')
 source=("91-mkinitcpio-cmdline.hook")

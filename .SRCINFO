@@ -1,8 +1,8 @@
 pkgbase = mkinitcpio-cmdline-pacman-hook
 	pkgdesc = Pacman hook to trigger mkinicpio when /etc/cmdline, /etc/cmdline.d/* or /etc/kernel/cmdline is modified by packages
 	pkgver = 1.0.0
-	pkgrel = 1
-	url = https://github.com/trijpstra-fourlights/minisforum-v3-pcie-aspm-config
+	pkgrel = 2
+	url = https://github.com/trijpstra-fourlights/mkinitcpio-cmdline-pacman-hook
 	arch = any
 	license = MIT
 	depends = pacman
